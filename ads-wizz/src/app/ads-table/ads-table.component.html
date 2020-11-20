@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="col12 container">
+        <span class="col4"> Object Name</span>
+        <span class="col2"> Metric 1</span>
+        <span class="col2"> Metric 2</span>
+        <span class="col2"> Metric 3</span>
+        <span class="col2"> Metric 4</span>
+    </div>
+    <div class="col12">
+        <div class="container row" *ngFor="let row of data">
+            <span class="col4"> {{row.objName}}</span>
+            <span class="col2">{{row.m1}}</span>
+            <span class="col2"> {{row.m2}}</span>
+            <span class="col2">{{row.m3}}</span>
+            <span class="col2"> {{row.m4}}</span>
+        </div>
+    </div>
+</div>

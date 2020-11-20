@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
 import { AdsHeaderComponent } from './ads-header/ads-header.component';
+import { AdsTableComponent } from './ads-table/ads-table.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AdsHeaderComponent
+    AdsHeaderComponent,
+    AdsTableComponent
   ],
   imports: [
     BrowserModule
