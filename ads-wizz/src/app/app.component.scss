@@ -1,0 +1,9 @@
+::ng-deep {
+  .container {
+    display: flex;
+    flex: row wrap;
+    justify-content: space-between;
+    height: 80px;
+    align-items: center;
+  }
+}
