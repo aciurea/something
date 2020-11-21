@@ -1,9 +1,6 @@
 ::ng-deep {
-  .container {
-    height: 80px;
-  }
-
   .row {
+    height: 80px;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-gap: 2%;
@@ -13,6 +10,14 @@
   @for $i from 1 through 12 {
     .col#{$i} {
       grid-column: span $i;
+    }
+
+    .col-start#{$i} {
+      grid-column-start: $i;
+    }
+
+    .col-end#{$i} {
+      grid-column-end: $i;
     }
   }
 }

@@ -5,6 +5,7 @@
     </a>
     <a class="col1" *ngFor="let menu of menus">{{menu}}</a>
     <span class="col2"></span>
+
     <div class="col3 row">
         <input type="text" placeholder="Search" class="col5">
         <span class="col1"></span>
@@ -16,4 +17,8 @@
             </span>
         </div>
     </div>
+</div>
+
+<div class="row sub-header">
+    <a class="col-start{{4 + i}}" *ngFor="let subM of subMenus; index as i">{{subM}}</a>
 </div>

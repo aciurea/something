@@ -1,0 +1,40 @@
+:host {
+  $titleColor: #646698;
+
+  section {
+    display: flex;
+    justify-content: space-between;
+    height: 160px;
+    align-items: center;
+  }
+
+  .title-section {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+  }
+
+  .title {
+    font-size: 25px;
+    color: $titleColor;
+  }
+
+  span {
+    color: gray;
+  }
+
+  a {
+    color: blue;
+    text-decoration: underline;
+  }
+
+  button,
+  input {
+    margin-right: 10px;
+    padding: 5px 15px;
+  }
+
+  input {
+    border: 0;
+  }
+}

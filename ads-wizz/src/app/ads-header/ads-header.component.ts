@@ -14,6 +14,14 @@ export class AdsHeaderComponent implements OnInit {
     'Main Tab',
     'Main Tab',
   ];
+  subMenus = [
+    'Sub Menu Link',
+    'Sub Menu Link',
+    'Sub Menu Link',
+    'Sub Menu Link',
+    'Sub Menu Link',
+    'Sub Menu Link',
+  ];
 
   constructor() {}
 
