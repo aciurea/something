@@ -1,17 +1,5 @@
 :host {
-  .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-gap: 2%;
-  }
-
-  @for $i from 1 through 12 {
-    .col#{$i} {
-      grid-column: span $i;
-    }
-  }
-
-  .row {
+  .table-row {
     background-color: white;
     border: 1px solid rgb(187, 180, 180);
     margin: 5px;

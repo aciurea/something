@@ -1,14 +1,19 @@
-<div class="container header">
-    <div class="menus">
-        <a class="item"><span style="font-weight: 800; color: white;">AUDIO</span><span>SERVE</span></a>
-        <a class="item" *ngFor="let menu of menus">{{menu}}</a>
-    </div>
-
-    <div class="user-info">
-        <input type="text" placeholder="Search" class="user-item">
-        <div class="user-info user-item">
-            <span class="user-item"><img src="../../favicon.ico"></span>
-            <span class="user-item">Will Hunter</span>
+<div class="row header">
+    <a class="col1 banner">
+        <span style="font-weight: 800; color: white;">AUDIO</span>
+        <span>SERVE</span>
+    </a>
+    <a class="col1" *ngFor="let menu of menus">{{menu}}</a>
+    <span class="col2"></span>
+    <div class="col3 row">
+        <input type="text" placeholder="Search" class="col5">
+        <span class="col1"></span>
+        <div class="col6 row">
+            <img src="../../favicon.ico">
+            <span class="user">
+                <span>Will Hunter</span>
+                <span style="color:#cfbaff">Poolside.FM</span>
+            </span>
         </div>
     </div>
 </div>
