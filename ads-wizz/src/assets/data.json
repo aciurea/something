@@ -2,1400 +2,1400 @@
 	{
 		"name": "JI",
 		"metric1": 0,
-		"metric 2": 0,
+		"metric2": 0,
 		"metric3": 0,
 		"metric4": 0
 	},
 	{
 		"name": "JT",
 		"metric1": 4,
-		"metric 2": 2,
+		"metric2": 2,
 		"metric3": 5,
 		"metric4": 3
 	},
 	{
 		"name": "West Sumatra",
 		"metric1": 8,
-		"metric 2": 4,
+		"metric2": 4,
 		"metric3": 10,
 		"metric4": 6
 	},
 	{
 		"name": "RJ",
 		"metric1": 12,
-		"metric 2": 6,
+		"metric2": 6,
 		"metric3": 15,
 		"metric4": 9
 	},
 	{
 		"name": "ATL",
 		"metric1": 16,
-		"metric 2": 8,
+		"metric2": 8,
 		"metric3": 20,
 		"metric4": 12
 	},
 	{
 		"name": "Vienna",
 		"metric1": 20,
-		"metric 2": 10,
+		"metric2": 10,
 		"metric3": 25,
 		"metric4": 15
 	},
 	{
 		"name": "Gto",
 		"metric1": 24,
-		"metric 2": 12,
+		"metric2": 12,
 		"metric3": 30,
 		"metric4": 18
 	},
 	{
 		"name": "Kerala",
 		"metric1": 28,
-		"metric 2": 14,
+		"metric2": 14,
 		"metric3": 35,
 		"metric4": 21
 	},
 	{
 		"name": "South Gyeongsang",
 		"metric1": 32,
-		"metric 2": 16,
+		"metric2": 16,
 		"metric3": 40,
 		"metric4": 24
 	},
 	{
 		"name": "LU",
 		"metric1": 36,
-		"metric 2": 18,
+		"metric2": 18,
 		"metric3": 45,
 		"metric4": 27
 	},
 	{
 		"name": "Sonora",
 		"metric1": 40,
-		"metric 2": 20,
+		"metric2": 20,
 		"metric3": 50,
 		"metric4": 30
 	},
 	{
 		"name": "Madrid",
 		"metric1": 44,
-		"metric 2": 22,
+		"metric2": 22,
 		"metric3": 55,
 		"metric4": 33
 	},
 	{
 		"name": "NI",
 		"metric1": 48,
-		"metric 2": 24,
+		"metric2": 24,
 		"metric3": 60,
 		"metric4": 36
 	},
 	{
 		"name": "Irkutsk Oblast",
 		"metric1": 52,
-		"metric 2": 26,
+		"metric2": 26,
 		"metric3": 65,
 		"metric4": 39
 	},
 	{
 		"name": "Ulster",
 		"metric1": 56,
-		"metric 2": 28,
+		"metric2": 28,
 		"metric3": 70,
 		"metric4": 42
 	},
 	{
 		"name": "Wie",
 		"metric1": 60,
-		"metric 2": 30,
+		"metric2": 30,
 		"metric3": 75,
 		"metric4": 45
 	},
 	{
 		"name": "PO",
 		"metric1": 64,
-		"metric 2": 32,
+		"metric2": 32,
 		"metric3": 80,
 		"metric4": 48
 	},
 	{
 		"name": "Bangka Belitung Islands",
 		"metric1": 68,
-		"metric 2": 34,
+		"metric2": 34,
 		"metric3": 85,
 		"metric4": 51
 	},
 	{
 		"name": "Gye",
 		"metric1": 72,
-		"metric 2": 36,
+		"metric2": 36,
 		"metric3": 90,
 		"metric4": 54
 	},
 	{
 		"name": "Illes Balears",
 		"metric1": 76,
-		"metric 2": 38,
+		"metric2": 38,
 		"metric3": 95,
 		"metric4": 57
 	},
 	{
 		"name": "U",
 		"metric1": 80,
-		"metric 2": 40,
+		"metric2": 40,
 		"metric3": 100,
 		"metric4": 60
 	},
 	{
 		"name": "Paraíba",
 		"metric1": 84,
-		"metric 2": 42,
+		"metric2": 42,
 		"metric3": 105,
 		"metric4": 63
 	},
 	{
 		"name": "Atacama",
 		"metric1": 88,
-		"metric 2": 44,
+		"metric2": 44,
 		"metric3": 110,
 		"metric4": 66
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 92,
-		"metric 2": 46,
+		"metric2": 46,
 		"metric3": 115,
 		"metric4": 69
 	},
 	{
 		"name": "OÖ.",
 		"metric1": 96,
-		"metric 2": 48,
+		"metric2": 48,
 		"metric3": 120,
 		"metric4": 72
 	},
 	{
 		"name": "Waals-Brabant",
 		"metric1": 100,
-		"metric 2": 50,
+		"metric2": 50,
 		"metric3": 125,
 		"metric4": 75
 	},
 	{
 		"name": "UT",
 		"metric1": 104,
-		"metric 2": 52,
+		"metric2": 52,
 		"metric3": 130,
 		"metric4": 78
 	},
 	{
 		"name": "Wie",
 		"metric1": 108,
-		"metric 2": 54,
+		"metric2": 54,
 		"metric3": 135,
 		"metric4": 81
 	},
 	{
 		"name": "Atlántico",
 		"metric1": 112,
-		"metric 2": 56,
+		"metric2": 56,
 		"metric3": 140,
 		"metric4": 84
 	},
 	{
 		"name": "Istanbul",
 		"metric1": 116,
-		"metric 2": 58,
+		"metric2": 58,
 		"metric3": 145,
 		"metric4": 87
 	},
 	{
 		"name": "LA",
 		"metric1": 120,
-		"metric 2": 60,
+		"metric2": 60,
 		"metric3": 150,
 		"metric4": 90
 	},
 	{
 		"name": "ON",
 		"metric1": 124,
-		"metric 2": 62,
+		"metric2": 62,
 		"metric3": 155,
 		"metric4": 93
 	},
 	{
 		"name": "C",
 		"metric1": 128,
-		"metric 2": 64,
+		"metric2": 64,
 		"metric3": 160,
 		"metric4": 96
 	},
 	{
 		"name": "Antioquia",
 		"metric1": 132,
-		"metric 2": 66,
+		"metric2": 66,
 		"metric3": 165,
 		"metric4": 99
 	},
 	{
 		"name": "Tam",
 		"metric1": 136,
-		"metric 2": 68,
+		"metric2": 68,
 		"metric3": 170,
 		"metric4": 102
 	},
 	{
 		"name": "Punjab",
 		"metric1": 140,
-		"metric 2": 70,
+		"metric2": 70,
 		"metric3": 175,
 		"metric4": 105
 	},
 	{
 		"name": "Saskatchewan",
 		"metric1": 144,
-		"metric 2": 72,
+		"metric2": 72,
 		"metric3": 180,
 		"metric4": 108
 	},
 	{
 		"name": "Bremen",
 		"metric1": 148,
-		"metric 2": 74,
+		"metric2": 74,
 		"metric3": 185,
 		"metric4": 111
 	},
 	{
 		"name": "Khyber Pakhtoonkhwa",
 		"metric1": 152,
-		"metric 2": 76,
+		"metric2": 76,
 		"metric3": 190,
 		"metric4": 114
 	},
 	{
 		"name": "BE",
 		"metric1": 156,
-		"metric 2": 78,
+		"metric2": 78,
 		"metric3": 195,
 		"metric4": 117
 	},
 	{
 		"name": "Madhya Pradesh",
 		"metric1": 160,
-		"metric 2": 80,
+		"metric2": 80,
 		"metric3": 200,
 		"metric4": 120
 	},
 	{
 		"name": "DS",
 		"metric1": 164,
-		"metric 2": 82,
+		"metric2": 82,
 		"metric3": 205,
 		"metric4": 123
 	},
 	{
 		"name": "San José",
 		"metric1": 168,
-		"metric 2": 84,
+		"metric2": 84,
 		"metric3": 210,
 		"metric4": 126
 	},
 	{
 		"name": "Vienna",
 		"metric1": 172,
-		"metric 2": 86,
+		"metric2": 86,
 		"metric3": 215,
 		"metric4": 129
 	},
 	{
 		"name": "Guanacaste",
 		"metric1": 176,
-		"metric 2": 88,
+		"metric2": 88,
 		"metric3": 220,
 		"metric4": 132
 	},
 	{
 		"name": "Florida",
 		"metric1": 180,
-		"metric 2": 90,
+		"metric2": 90,
 		"metric3": 225,
 		"metric4": 135
 	},
 	{
 		"name": "Murmansk Oblast",
 		"metric1": 184,
-		"metric 2": 92,
+		"metric2": 92,
 		"metric3": 230,
 		"metric4": 138
 	},
 	{
 		"name": "Şanlıurfa",
 		"metric1": 188,
-		"metric 2": 94,
+		"metric2": 94,
 		"metric3": 235,
 		"metric4": 141
 	},
 	{
 		"name": "East Java",
 		"metric1": 192,
-		"metric 2": 96,
+		"metric2": 96,
 		"metric3": 240,
 		"metric4": 144
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 196,
-		"metric 2": 98,
+		"metric2": 98,
 		"metric3": 245,
 		"metric4": 147
 	},
 	{
 		"name": "PI",
 		"metric1": 200,
-		"metric 2": 100,
+		"metric2": 100,
 		"metric3": 250,
 		"metric4": 150
 	},
 	{
 		"name": "HB",
 		"metric1": 204,
-		"metric 2": 102,
+		"metric2": 102,
 		"metric3": 255,
 		"metric4": 153
 	},
 	{
 		"name": "M",
 		"metric1": 208,
-		"metric 2": 104,
+		"metric2": 104,
 		"metric3": 260,
 		"metric4": 156
 	},
 	{
 		"name": "Junín",
 		"metric1": 212,
-		"metric 2": 106,
+		"metric2": 106,
 		"metric3": 265,
 		"metric4": 159
 	},
 	{
 		"name": "Aragón",
 		"metric1": 216,
-		"metric 2": 108,
+		"metric2": 108,
 		"metric3": 270,
 		"metric4": 162
 	},
 	{
 		"name": "BOL",
 		"metric1": 220,
-		"metric 2": 110,
+		"metric2": 110,
 		"metric3": 275,
 		"metric4": 165
 	},
 	{
 		"name": "İzm",
 		"metric1": 224,
-		"metric 2": 112,
+		"metric2": 112,
 		"metric3": 280,
 		"metric4": 168
 	},
 	{
 		"name": "LAL",
 		"metric1": 228,
-		"metric 2": 114,
+		"metric2": 114,
 		"metric3": 285,
 		"metric4": 171
 	},
 	{
 		"name": "South Australia",
 		"metric1": 232,
-		"metric 2": 116,
+		"metric2": 116,
 		"metric3": 290,
 		"metric4": 174
 	},
 	{
 		"name": "Wie",
 		"metric1": 236,
-		"metric 2": 118,
+		"metric2": 118,
 		"metric3": 295,
 		"metric4": 177
 	},
 	{
 		"name": "Arica y Parinacota",
 		"metric1": 240,
-		"metric 2": 120,
+		"metric2": 120,
 		"metric3": 300,
 		"metric4": 180
 	},
 	{
 		"name": "Maranhão",
 		"metric1": 244,
-		"metric 2": 122,
+		"metric2": 122,
 		"metric3": 305,
 		"metric4": 183
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 248,
-		"metric 2": 124,
+		"metric2": 124,
 		"metric3": 310,
 		"metric4": 186
 	},
 	{
 		"name": "VIC",
 		"metric1": 252,
-		"metric 2": 126,
+		"metric2": 126,
 		"metric3": 315,
 		"metric4": 189
 	},
 	{
 		"name": "Zeeland",
 		"metric1": 256,
-		"metric 2": 128,
+		"metric2": 128,
 		"metric3": 320,
 		"metric4": 192
 	},
 	{
 		"name": "Penza Oblast",
 		"metric1": 260,
-		"metric 2": 130,
+		"metric2": 130,
 		"metric3": 325,
 		"metric4": 195
 	},
 	{
 		"name": "Vienna",
 		"metric1": 264,
-		"metric 2": 132,
+		"metric2": 132,
 		"metric3": 330,
 		"metric4": 198
 	},
 	{
 		"name": "HE",
 		"metric1": 268,
-		"metric 2": 134,
+		"metric2": 134,
 		"metric3": 335,
 		"metric4": 201
 	},
 	{
 		"name": "Kurgan Oblast",
 		"metric1": 272,
-		"metric 2": 136,
+		"metric2": 136,
 		"metric3": 340,
 		"metric4": 204
 	},
 	{
 		"name": "CA",
 		"metric1": 276,
-		"metric 2": 138,
+		"metric2": 138,
 		"metric3": 345,
 		"metric4": 207
 	},
 	{
 		"name": "Sokoto",
 		"metric1": 280,
-		"metric 2": 140,
+		"metric2": 140,
 		"metric3": 350,
 		"metric4": 210
 	},
 	{
 		"name": "Rio Grande do Sul",
 		"metric1": 284,
-		"metric 2": 142,
+		"metric2": 142,
 		"metric3": 355,
 		"metric4": 213
 	},
 	{
 		"name": "Kursk Oblast",
 		"metric1": 288,
-		"metric 2": 144,
+		"metric2": 144,
 		"metric3": 360,
 		"metric4": 216
 	},
 	{
 		"name": "YO",
 		"metric1": 292,
-		"metric 2": 146,
+		"metric2": 146,
 		"metric3": 365,
 		"metric4": 219
 	},
 	{
 		"name": "Leinster",
 		"metric1": 296,
-		"metric 2": 148,
+		"metric2": 148,
 		"metric3": 370,
 		"metric4": 222
 	},
 	{
 		"name": "Madrid",
 		"metric1": 300,
-		"metric 2": 150,
+		"metric2": 150,
 		"metric3": 375,
 		"metric4": 225
 	},
 	{
 		"name": "Ist",
 		"metric1": 304,
-		"metric 2": 152,
+		"metric2": 152,
 		"metric3": 380,
 		"metric4": 228
 	},
 	{
 		"name": "ANC",
 		"metric1": 308,
-		"metric 2": 154,
+		"metric2": 154,
 		"metric3": 385,
 		"metric4": 231
 	},
 	{
 		"name": "Ontario",
 		"metric1": 312,
-		"metric 2": 156,
+		"metric2": 156,
 		"metric3": 390,
 		"metric4": 234
 	},
 	{
 		"name": "MAG",
 		"metric1": 316,
-		"metric 2": 158,
+		"metric2": 158,
 		"metric3": 395,
 		"metric4": 237
 	},
 	{
 		"name": "W",
 		"metric1": 320,
-		"metric 2": 160,
+		"metric2": 160,
 		"metric3": 400,
 		"metric4": 240
 	},
 	{
 		"name": "Gelderland",
 		"metric1": 324,
-		"metric 2": 162,
+		"metric2": 162,
 		"metric3": 405,
 		"metric4": 243
 	},
 	{
 		"name": "VII",
 		"metric1": 328,
-		"metric 2": 164,
+		"metric2": 164,
 		"metric3": 410,
 		"metric4": 246
 	},
 	{
 		"name": "KP",
 		"metric1": 332,
-		"metric 2": 166,
+		"metric2": 166,
 		"metric3": 415,
 		"metric4": 249
 	},
 	{
 		"name": "Odisha",
 		"metric1": 336,
-		"metric 2": 168,
+		"metric2": 168,
 		"metric3": 420,
 		"metric4": 252
 	},
 	{
 		"name": "NB",
 		"metric1": 340,
-		"metric 2": 170,
+		"metric2": 170,
 		"metric3": 425,
 		"metric4": 255
 	},
 	{
 		"name": "Limburg",
 		"metric1": 344,
-		"metric 2": 172,
+		"metric2": 172,
 		"metric3": 430,
 		"metric4": 258
 	},
 	{
 		"name": "Luik",
 		"metric1": 348,
-		"metric 2": 174,
+		"metric2": 174,
 		"metric3": 435,
 		"metric4": 261
 	},
 	{
 		"name": "Podlaskie",
 		"metric1": 352,
-		"metric 2": 176,
+		"metric2": 176,
 		"metric3": 440,
 		"metric4": 264
 	},
 	{
 		"name": "JT",
 		"metric1": 356,
-		"metric 2": 178,
+		"metric2": 178,
 		"metric3": 445,
 		"metric4": 267
 	},
 	{
 		"name": "PR",
 		"metric1": 360,
-		"metric 2": 180,
+		"metric2": 180,
 		"metric3": 450,
 		"metric4": 270
 	},
 	{
 		"name": "Minas Gerais",
 		"metric1": 364,
-		"metric 2": 182,
+		"metric2": 182,
 		"metric3": 455,
 		"metric4": 273
 	},
 	{
 		"name": "Luxemburg",
 		"metric1": 368,
-		"metric 2": 184,
+		"metric2": 184,
 		"metric3": 460,
 		"metric4": 276
 	},
 	{
 		"name": "Kerala",
 		"metric1": 372,
-		"metric 2": 186,
+		"metric2": 186,
 		"metric3": 465,
 		"metric4": 279
 	},
 	{
 		"name": "West Java",
 		"metric1": 376,
-		"metric 2": 188,
+		"metric2": 188,
 		"metric3": 470,
 		"metric4": 282
 	},
 	{
 		"name": "LO",
 		"metric1": 380,
-		"metric 2": 190,
+		"metric2": 190,
 		"metric3": 475,
 		"metric4": 285
 	},
 	{
 		"name": "E",
 		"metric1": 384,
-		"metric 2": 192,
+		"metric2": 192,
 		"metric3": 480,
 		"metric4": 288
 	},
 	{
 		"name": "PR",
 		"metric1": 388,
-		"metric 2": 194,
+		"metric2": 194,
 		"metric3": 485,
 		"metric4": 291
 	},
 	{
 		"name": "GB",
 		"metric1": 392,
-		"metric 2": 196,
+		"metric2": 196,
 		"metric3": 490,
 		"metric4": 294
 	},
 	{
 		"name": "QLD",
 		"metric1": 396,
-		"metric 2": 198,
+		"metric2": 198,
 		"metric3": 495,
 		"metric4": 297
 	},
 	{
 		"name": "JI",
 		"metric1": 0,
-		"metric 2": 0,
+		"metric2": 0,
 		"metric3": 0,
 		"metric4": 0
 	},
 	{
 		"name": "JT",
 		"metric1": 4,
-		"metric 2": 2,
+		"metric2": 2,
 		"metric3": 5,
 		"metric4": 3
 	},
 	{
 		"name": "West Sumatra",
 		"metric1": 8,
-		"metric 2": 4,
+		"metric2": 4,
 		"metric3": 10,
 		"metric4": 6
 	},
 	{
 		"name": "RJ",
 		"metric1": 12,
-		"metric 2": 6,
+		"metric2": 6,
 		"metric3": 15,
 		"metric4": 9
 	},
 	{
 		"name": "ATL",
 		"metric1": 16,
-		"metric 2": 8,
+		"metric2": 8,
 		"metric3": 20,
 		"metric4": 12
 	},
 	{
 		"name": "Vienna",
 		"metric1": 20,
-		"metric 2": 10,
+		"metric2": 10,
 		"metric3": 25,
 		"metric4": 15
 	},
 	{
 		"name": "Gto",
 		"metric1": 24,
-		"metric 2": 12,
+		"metric2": 12,
 		"metric3": 30,
 		"metric4": 18
 	},
 	{
 		"name": "Kerala",
 		"metric1": 28,
-		"metric 2": 14,
+		"metric2": 14,
 		"metric3": 35,
 		"metric4": 21
 	},
 	{
 		"name": "South Gyeongsang",
 		"metric1": 32,
-		"metric 2": 16,
+		"metric2": 16,
 		"metric3": 40,
 		"metric4": 24
 	},
 	{
 		"name": "LU",
 		"metric1": 36,
-		"metric 2": 18,
+		"metric2": 18,
 		"metric3": 45,
 		"metric4": 27
 	},
 	{
 		"name": "Sonora",
 		"metric1": 40,
-		"metric 2": 20,
+		"metric2": 20,
 		"metric3": 50,
 		"metric4": 30
 	},
 	{
 		"name": "Madrid",
 		"metric1": 44,
-		"metric 2": 22,
+		"metric2": 22,
 		"metric3": 55,
 		"metric4": 33
 	},
 	{
 		"name": "NI",
 		"metric1": 48,
-		"metric 2": 24,
+		"metric2": 24,
 		"metric3": 60,
 		"metric4": 36
 	},
 	{
 		"name": "Irkutsk Oblast",
 		"metric1": 52,
-		"metric 2": 26,
+		"metric2": 26,
 		"metric3": 65,
 		"metric4": 39
 	},
 	{
 		"name": "Ulster",
 		"metric1": 56,
-		"metric 2": 28,
+		"metric2": 28,
 		"metric3": 70,
 		"metric4": 42
 	},
 	{
 		"name": "Wie",
 		"metric1": 60,
-		"metric 2": 30,
+		"metric2": 30,
 		"metric3": 75,
 		"metric4": 45
 	},
 	{
 		"name": "PO",
 		"metric1": 64,
-		"metric 2": 32,
+		"metric2": 32,
 		"metric3": 80,
 		"metric4": 48
 	},
 	{
 		"name": "Bangka Belitung Islands",
 		"metric1": 68,
-		"metric 2": 34,
+		"metric2": 34,
 		"metric3": 85,
 		"metric4": 51
 	},
 	{
 		"name": "Gye",
 		"metric1": 72,
-		"metric 2": 36,
+		"metric2": 36,
 		"metric3": 90,
 		"metric4": 54
 	},
 	{
 		"name": "Illes Balears",
 		"metric1": 76,
-		"metric 2": 38,
+		"metric2": 38,
 		"metric3": 95,
 		"metric4": 57
 	},
 	{
 		"name": "U",
 		"metric1": 80,
-		"metric 2": 40,
+		"metric2": 40,
 		"metric3": 100,
 		"metric4": 60
 	},
 	{
 		"name": "Paraíba",
 		"metric1": 84,
-		"metric 2": 42,
+		"metric2": 42,
 		"metric3": 105,
 		"metric4": 63
 	},
 	{
 		"name": "Atacama",
 		"metric1": 88,
-		"metric 2": 44,
+		"metric2": 44,
 		"metric3": 110,
 		"metric4": 66
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 92,
-		"metric 2": 46,
+		"metric2": 46,
 		"metric3": 115,
 		"metric4": 69
 	},
 	{
 		"name": "OÖ.",
 		"metric1": 96,
-		"metric 2": 48,
+		"metric2": 48,
 		"metric3": 120,
 		"metric4": 72
 	},
 	{
 		"name": "Waals-Brabant",
 		"metric1": 100,
-		"metric 2": 50,
+		"metric2": 50,
 		"metric3": 125,
 		"metric4": 75
 	},
 	{
 		"name": "UT",
 		"metric1": 104,
-		"metric 2": 52,
+		"metric2": 52,
 		"metric3": 130,
 		"metric4": 78
 	},
 	{
 		"name": "Wie",
 		"metric1": 108,
-		"metric 2": 54,
+		"metric2": 54,
 		"metric3": 135,
 		"metric4": 81
 	},
 	{
 		"name": "Atlántico",
 		"metric1": 112,
-		"metric 2": 56,
+		"metric2": 56,
 		"metric3": 140,
 		"metric4": 84
 	},
 	{
 		"name": "Istanbul",
 		"metric1": 116,
-		"metric 2": 58,
+		"metric2": 58,
 		"metric3": 145,
 		"metric4": 87
 	},
 	{
 		"name": "LA",
 		"metric1": 120,
-		"metric 2": 60,
+		"metric2": 60,
 		"metric3": 150,
 		"metric4": 90
 	},
 	{
 		"name": "ON",
 		"metric1": 124,
-		"metric 2": 62,
+		"metric2": 62,
 		"metric3": 155,
 		"metric4": 93
 	},
 	{
 		"name": "C",
 		"metric1": 128,
-		"metric 2": 64,
+		"metric2": 64,
 		"metric3": 160,
 		"metric4": 96
 	},
 	{
 		"name": "Antioquia",
 		"metric1": 132,
-		"metric 2": 66,
+		"metric2": 66,
 		"metric3": 165,
 		"metric4": 99
 	},
 	{
 		"name": "Tam",
 		"metric1": 136,
-		"metric 2": 68,
+		"metric2": 68,
 		"metric3": 170,
 		"metric4": 102
 	},
 	{
 		"name": "Punjab",
 		"metric1": 140,
-		"metric 2": 70,
+		"metric2": 70,
 		"metric3": 175,
 		"metric4": 105
 	},
 	{
 		"name": "Saskatchewan",
 		"metric1": 144,
-		"metric 2": 72,
+		"metric2": 72,
 		"metric3": 180,
 		"metric4": 108
 	},
 	{
 		"name": "Bremen",
 		"metric1": 148,
-		"metric 2": 74,
+		"metric2": 74,
 		"metric3": 185,
 		"metric4": 111
 	},
 	{
 		"name": "Khyber Pakhtoonkhwa",
 		"metric1": 152,
-		"metric 2": 76,
+		"metric2": 76,
 		"metric3": 190,
 		"metric4": 114
 	},
 	{
 		"name": "BE",
 		"metric1": 156,
-		"metric 2": 78,
+		"metric2": 78,
 		"metric3": 195,
 		"metric4": 117
 	},
 	{
 		"name": "Madhya Pradesh",
 		"metric1": 160,
-		"metric 2": 80,
+		"metric2": 80,
 		"metric3": 200,
 		"metric4": 120
 	},
 	{
 		"name": "DS",
 		"metric1": 164,
-		"metric 2": 82,
+		"metric2": 82,
 		"metric3": 205,
 		"metric4": 123
 	},
 	{
 		"name": "San José",
 		"metric1": 168,
-		"metric 2": 84,
+		"metric2": 84,
 		"metric3": 210,
 		"metric4": 126
 	},
 	{
 		"name": "Vienna",
 		"metric1": 172,
-		"metric 2": 86,
+		"metric2": 86,
 		"metric3": 215,
 		"metric4": 129
 	},
 	{
 		"name": "Guanacaste",
 		"metric1": 176,
-		"metric 2": 88,
+		"metric2": 88,
 		"metric3": 220,
 		"metric4": 132
 	},
 	{
 		"name": "Florida",
 		"metric1": 180,
-		"metric 2": 90,
+		"metric2": 90,
 		"metric3": 225,
 		"metric4": 135
 	},
 	{
 		"name": "Murmansk Oblast",
 		"metric1": 184,
-		"metric 2": 92,
+		"metric2": 92,
 		"metric3": 230,
 		"metric4": 138
 	},
 	{
 		"name": "Şanlıurfa",
 		"metric1": 188,
-		"metric 2": 94,
+		"metric2": 94,
 		"metric3": 235,
 		"metric4": 141
 	},
 	{
 		"name": "East Java",
 		"metric1": 192,
-		"metric 2": 96,
+		"metric2": 96,
 		"metric3": 240,
 		"metric4": 144
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 196,
-		"metric 2": 98,
+		"metric2": 98,
 		"metric3": 245,
 		"metric4": 147
 	},
 	{
 		"name": "PI",
 		"metric1": 200,
-		"metric 2": 100,
+		"metric2": 100,
 		"metric3": 250,
 		"metric4": 150
 	},
 	{
 		"name": "HB",
 		"metric1": 204,
-		"metric 2": 102,
+		"metric2": 102,
 		"metric3": 255,
 		"metric4": 153
 	},
 	{
 		"name": "M",
 		"metric1": 208,
-		"metric 2": 104,
+		"metric2": 104,
 		"metric3": 260,
 		"metric4": 156
 	},
 	{
 		"name": "Junín",
 		"metric1": 212,
-		"metric 2": 106,
+		"metric2": 106,
 		"metric3": 265,
 		"metric4": 159
 	},
 	{
 		"name": "Aragón",
 		"metric1": 216,
-		"metric 2": 108,
+		"metric2": 108,
 		"metric3": 270,
 		"metric4": 162
 	},
 	{
 		"name": "BOL",
 		"metric1": 220,
-		"metric 2": 110,
+		"metric2": 110,
 		"metric3": 275,
 		"metric4": 165
 	},
 	{
 		"name": "İzm",
 		"metric1": 224,
-		"metric 2": 112,
+		"metric2": 112,
 		"metric3": 280,
 		"metric4": 168
 	},
 	{
 		"name": "LAL",
 		"metric1": 228,
-		"metric 2": 114,
+		"metric2": 114,
 		"metric3": 285,
 		"metric4": 171
 	},
 	{
 		"name": "South Australia",
 		"metric1": 232,
-		"metric 2": 116,
+		"metric2": 116,
 		"metric3": 290,
 		"metric4": 174
 	},
 	{
 		"name": "Wie",
 		"metric1": 236,
-		"metric 2": 118,
+		"metric2": 118,
 		"metric3": 295,
 		"metric4": 177
 	},
 	{
 		"name": "Arica y Parinacota",
 		"metric1": 240,
-		"metric 2": 120,
+		"metric2": 120,
 		"metric3": 300,
 		"metric4": 180
 	},
 	{
 		"name": "Maranhão",
 		"metric1": 244,
-		"metric 2": 122,
+		"metric2": 122,
 		"metric3": 305,
 		"metric4": 183
 	},
 	{
 		"name": "Andalucía",
 		"metric1": 248,
-		"metric 2": 124,
+		"metric2": 124,
 		"metric3": 310,
 		"metric4": 186
 	},
 	{
 		"name": "VIC",
 		"metric1": 252,
-		"metric 2": 126,
+		"metric2": 126,
 		"metric3": 315,
 		"metric4": 189
 	},
 	{
 		"name": "Zeeland",
 		"metric1": 256,
-		"metric 2": 128,
+		"metric2": 128,
 		"metric3": 320,
 		"metric4": 192
 	},
 	{
 		"name": "Penza Oblast",
 		"metric1": 260,
-		"metric 2": 130,
+		"metric2": 130,
 		"metric3": 325,
 		"metric4": 195
 	},
 	{
 		"name": "Vienna",
 		"metric1": 264,
-		"metric 2": 132,
+		"metric2": 132,
 		"metric3": 330,
 		"metric4": 198
 	},
 	{
 		"name": "HE",
 		"metric1": 268,
-		"metric 2": 134,
+		"metric2": 134,
 		"metric3": 335,
 		"metric4": 201
 	},
 	{
 		"name": "Kurgan Oblast",
 		"metric1": 272,
-		"metric 2": 136,
+		"metric2": 136,
 		"metric3": 340,
 		"metric4": 204
 	},
 	{
 		"name": "CA",
 		"metric1": 276,
-		"metric 2": 138,
+		"metric2": 138,
 		"metric3": 345,
 		"metric4": 207
 	},
 	{
 		"name": "Sokoto",
 		"metric1": 280,
-		"metric 2": 140,
+		"metric2": 140,
 		"metric3": 350,
 		"metric4": 210
 	},
 	{
 		"name": "Rio Grande do Sul",
 		"metric1": 284,
-		"metric 2": 142,
+		"metric2": 142,
 		"metric3": 355,
 		"metric4": 213
 	},
 	{
 		"name": "Kursk Oblast",
 		"metric1": 288,
-		"metric 2": 144,
+		"metric2": 144,
 		"metric3": 360,
 		"metric4": 216
 	},
 	{
 		"name": "YO",
 		"metric1": 292,
-		"metric 2": 146,
+		"metric2": 146,
 		"metric3": 365,
 		"metric4": 219
 	},
 	{
 		"name": "Leinster",
 		"metric1": 296,
-		"metric 2": 148,
+		"metric2": 148,
 		"metric3": 370,
 		"metric4": 222
 	},
 	{
 		"name": "Madrid",
 		"metric1": 300,
-		"metric 2": 150,
+		"metric2": 150,
 		"metric3": 375,
 		"metric4": 225
 	},
 	{
 		"name": "Ist",
 		"metric1": 304,
-		"metric 2": 152,
+		"metric2": 152,
 		"metric3": 380,
 		"metric4": 228
 	},
 	{
 		"name": "ANC",
 		"metric1": 308,
-		"metric 2": 154,
+		"metric2": 154,
 		"metric3": 385,
 		"metric4": 231
 	},
 	{
 		"name": "Ontario",
 		"metric1": 312,
-		"metric 2": 156,
+		"metric2": 156,
 		"metric3": 390,
 		"metric4": 234
 	},
 	{
 		"name": "MAG",
 		"metric1": 316,
-		"metric 2": 158,
+		"metric2": 158,
 		"metric3": 395,
 		"metric4": 237
 	},
 	{
 		"name": "W",
 		"metric1": 320,
-		"metric 2": 160,
+		"metric2": 160,
 		"metric3": 400,
 		"metric4": 240
 	},
 	{
 		"name": "Gelderland",
 		"metric1": 324,
-		"metric 2": 162,
+		"metric2": 162,
 		"metric3": 405,
 		"metric4": 243
 	},
 	{
 		"name": "VII",
 		"metric1": 328,
-		"metric 2": 164,
+		"metric2": 164,
 		"metric3": 410,
 		"metric4": 246
 	},
 	{
 		"name": "KP",
 		"metric1": 332,
-		"metric 2": 166,
+		"metric2": 166,
 		"metric3": 415,
 		"metric4": 249
 	},
 	{
 		"name": "Odisha",
 		"metric1": 336,
-		"metric 2": 168,
+		"metric2": 168,
 		"metric3": 420,
 		"metric4": 252
 	},
 	{
 		"name": "NB",
 		"metric1": 340,
-		"metric 2": 170,
+		"metric2": 170,
 		"metric3": 425,
 		"metric4": 255
 	},
 	{
 		"name": "Limburg",
 		"metric1": 344,
-		"metric 2": 172,
+		"metric2": 172,
 		"metric3": 430,
 		"metric4": 258
 	},
 	{
 		"name": "Luik",
 		"metric1": 348,
-		"metric 2": 174,
+		"metric2": 174,
 		"metric3": 435,
 		"metric4": 261
 	},
 	{
 		"name": "Podlaskie",
 		"metric1": 352,
-		"metric 2": 176,
+		"metric2": 176,
 		"metric3": 440,
 		"metric4": 264
 	},
 	{
 		"name": "JT",
 		"metric1": 356,
-		"metric 2": 178,
+		"metric2": 178,
 		"metric3": 445,
 		"metric4": 267
 	},
 	{
 		"name": "PR",
 		"metric1": 360,
-		"metric 2": 180,
+		"metric2": 180,
 		"metric3": 450,
 		"metric4": 270
 	},
 	{
 		"name": "Minas Gerais",
 		"metric1": 364,
-		"metric 2": 182,
+		"metric2": 182,
 		"metric3": 455,
 		"metric4": 273
 	},
 	{
 		"name": "Luxemburg",
 		"metric1": 368,
-		"metric 2": 184,
+		"metric2": 184,
 		"metric3": 460,
 		"metric4": 276
 	},
 	{
 		"name": "Kerala",
 		"metric1": 372,
-		"metric 2": 186,
+		"metric2": 186,
 		"metric3": 465,
 		"metric4": 279
 	},
 	{
 		"name": "West Java",
 		"metric1": 376,
-		"metric 2": 188,
+		"metric2": 188,
 		"metric3": 470,
 		"metric4": 282
 	},
 	{
 		"name": "LO",
 		"metric1": 380,
-		"metric 2": 190,
+		"metric2": 190,
 		"metric3": 475,
 		"metric4": 285
 	},
 	{
 		"name": "E",
 		"metric1": 384,
-		"metric 2": 192,
+		"metric2": 192,
 		"metric3": 480,
 		"metric4": 288
 	},
 	{
 		"name": "PR",
 		"metric1": 388,
-		"metric 2": 194,
+		"metric2": 194,
 		"metric3": 485,
 		"metric4": 291
 	},
 	{
 		"name": "GB",
 		"metric1": 392,
-		"metric 2": 196,
+		"metric2": 196,
 		"metric3": 490,
 		"metric4": 294
 	},
 	{
 		"name": "QLD",
 		"metric1": 396,
-		"metric 2": 198,
+		"metric2": 198,
 		"metric3": 495,
 		"metric4": 297
 	}

@@ -15,4 +15,8 @@ export class AdsTableComponent implements OnInit {
   ngOnInit(): void {
     this.data$ = this.adsDataService.getData();
   }
+
+  sort(direction: string) {
+    console.log('direciton ', direction);
+  }
 }

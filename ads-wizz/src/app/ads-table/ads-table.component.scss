@@ -1,8 +1,39 @@
 :host {
+  $txtColor: #646698;
+  $borderColor: #dee5ee;
+  $shadow: #e2f1fc;
+
+  color: $txtColor;
+
   .table-row {
     background-color: white;
-    border: 1px solid rgb(187, 180, 180);
+    border: 2px solid $borderColor;
     margin: 5px;
     padding: 5px;
+    box-shadow: 0 2px $shadow;
+    border-radius: 3px;
+  }
+
+  a:hover {
+    cursor: pointer;
+  }
+
+  section {
+    padding: 0 20px;
+    height: 500px;
+    overflow-y: hidden;
+  }
+
+  .bold {
+    font-weight: 600;
+  }
+
+  .currency {
+    color: #e3e8f0;
+    padding: 0 5px;
+  }
+
+  .right-align {
+    text-align: right;
   }
 }

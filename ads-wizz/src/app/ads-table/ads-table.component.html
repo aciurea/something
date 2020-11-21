@@ -1,19 +1,27 @@
-<div class="row">
+<section class="row">
     <div class="col12 row">
-        <span class="col4"> Object Name</span>
-        <span class="col2"> Metric 1</span>
-        <span class="col2"> Metric 2</span>
-        <span class="col2"> Metric 3</span>
-        <span class="col2"> Metric 4</span>
+        <a class="col3 bold" (click)="sort('name')"> Object Name</a>
+        <a class="col2 bold" (click)="sort('metric1')" style="text-align: center;"> Metric 1</a>
+        <a class="col2 bold right-align" (click)="sort('metric2')"> Metric 2</a>
+        <a class="col2 bold right-align" (click)="sort('metric3')"> Metric 3</a>
+        <a class="col2 bold right-align" (click)="sort('metric4')"> Metric 4</a>
+        <a class="col1 bold right-align"> </a>
     </div>
 
     <div class="col12">
         <div class="row table-row" *ngFor="let row of data$ | async">
-            <span class="col4"> {{row.name}}</span>
-            <span class="col2">{{row.metric1}}</span>
-            <span class="col2"> {{row.metric2}}</span>
-            <span class="col2">{{row.metric3}}</span>
-            <span class="col2"> {{row.metric4}}</span>
+            <span class="col3 bold"> {{row.name}}</span>
+            <span class="col2" style="text-align: center;">{{row.metric1}}</span>
+            <span class="col2 right-align">{{row.metric2}}
+                <span class="currency" *ngIf="row.metric2 !== 0">GBP</span></span>
+            <span class="col2 right-align">{{row.metric3}}
+                <span class="currency" *ngIf="row.metric3 !== 0">GBP</span></span>
+            <span class="col2 right-align">
+                <span class="currency" *ngIf="row.metric4 !== 0">GBP</span>
+                {{row.metric4}}</span>
+            <span class="col1 right-align">
+                <mat-icon>edit</mat-icon>
+            </span>
         </div>
     </div>
-</div>
+</section>
