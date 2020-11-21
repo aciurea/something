@@ -9,6 +9,7 @@ import { AdsHeaderComponent } from './ads-header/ads-header.component';
 import { AdsTableComponent } from './ads-table/ads-table.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AdsFilterComponent } from './ads-filter/ads-filter.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,10 +20,11 @@ import { AdsFilterComponent } from './ads-filter/ads-filter.component';
   ],
   imports: [
     BrowserModule,
-    MatIconModule,
+    HttpClientModule,
     MatInputModule,
     NoopAnimationsModule,
     MatButtonModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

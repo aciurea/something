@@ -8,12 +8,12 @@
     </div>
 
     <div class="col12">
-        <div class="row table-row" *ngFor="let row of data">
-            <span class="col4"> {{row.objName}}</span>
-            <span class="col2">{{row.m1}}</span>
-            <span class="col2"> {{row.m2}}</span>
-            <span class="col2">{{row.m3}}</span>
-            <span class="col2"> {{row.m4}}</span>
+        <div class="row table-row" *ngFor="let row of data$ | async">
+            <span class="col4"> {{row.name}}</span>
+            <span class="col2">{{row.metric1}}</span>
+            <span class="col2"> {{row.metric2}}</span>
+            <span class="col2">{{row.metric3}}</span>
+            <span class="col2"> {{row.metric4}}</span>
         </div>
     </div>
 </div>

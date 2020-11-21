@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Observable } from 'rxjs';
+import { AdsData, AdsDataService } from '../ads-data.service';
 
 @Component({
   selector: 'app-ads-table',
@@ -6,38 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./ads-table.component.scss'],
 })
 export class AdsTableComponent implements OnInit {
-  data = [
-    {
-      objName: 'Object 1',
-      m1: 2222,
-      m2: 111,
-      m3: 0,
-      m4: 5,
-    },
-    {
-      objName: 'Object 2',
-      m1: 2222,
-      m2: 111,
-      m3: 0,
-      m4: 5,
-    },
-    {
-      objName: 'Object 3',
-      m1: 2222,
-      m2: 111,
-      m3: 0,
-      m4: 5,
-    },
-    {
-      objName: 'Object 4',
-      m1: 2222,
-      m2: 111,
-      m3: 0,
-      m4: 5,
-    },
-  ];
+  data$: Observable<AdsData> = [] as any;
 
-  constructor() {}
+  constructor(private adsDataService: AdsDataService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+    this.data$ = this.adsDataService.getData();
+  }
 }
