@@ -47,9 +47,27 @@ export class AdsTableComponent implements OnInit, OnDestroy {
       direction === SortDirection.none
         ? ''
         : direction === SortDirection.asc
-        ? 'asc'
-        : 'desc'
+        ? 'arrow asc'
+        : 'arrow desc'
     }`;
+  }
+
+  isSorted(column: AdsSortType): boolean {
+    const direction = this.sortObj[column];
+
+    return direction !== SortDirection.none;
+  }
+
+  getIcon(column: AdsSortType): string {
+    console.log(123);
+    switch (this.sortObj[column]) {
+      case SortDirection.asc:
+        return 'arrow_drop_down';
+      case SortDirection.desc:
+        return 'arrow_drop_up';
+      default:
+        return '';
+    }
   }
 
   ngOnInit(): void {
