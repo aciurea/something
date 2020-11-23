@@ -1,15 +1,15 @@
 <section class="row">
     <div class="col12 row">
-        <a class="col3 bold" (click)="sort('name')"> Object Name</a>
-        <a class="col2 bold" (click)="sort('metric1')" style="text-align: center;"> Metric 1</a>
-        <a class="col2 bold right-align" (click)="sort('metric2')"> Metric 2</a>
-        <a class="col2 bold right-align" (click)="sort('metric3')"> Metric 3</a>
-        <a class="col2 bold right-align" (click)="sort('metric4')"> Metric 4</a>
+        <a [ngClass]="{'bold col3': true}" (click)="sort(sortType.name)"> Object Name</a>
+        <a class="col2 bold" (click)="sort(sortType.metric1)" style="text-align: center;"> Metric 1</a>
+        <a class="col2 bold right-align" (click)="sort(sortType.metric2)"> Metric 2</a>
+        <a class="col2 bold right-align" (click)="sort(sortType.metric3)"> Metric 3</a>
+        <a class="col2 bold right-align" (click)="sort(sortType.metric4)"> Metric 4</a>
         <a class="col1 bold right-align"> </a>
     </div>
 
     <div class="col12">
-        <div class="row table-row" *ngFor="let row of data$ | async">
+        <div class="row table-row" *ngFor="let row of data">
             <span class="col3 bold"> {{row.name}}</span>
             <span class="col2" style="text-align: center;">{{row.metric1}}</span>
             <span class="col2 right-align">{{row.metric2}}

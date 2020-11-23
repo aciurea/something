@@ -17,7 +17,7 @@ export class AdsDataService {
 
   constructor(private http: HttpClient) {}
 
-  getData(): Observable<AdsData> {
-    return this.http.get<AdsData>(this.jsonURL);
+  getData(): Observable<AdsData[]> {
+    return this.http.get<AdsData[]>(this.jsonURL);
   }
 }
