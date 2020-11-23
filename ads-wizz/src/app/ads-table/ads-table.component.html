@@ -1,4 +1,6 @@
-<section class="row">
+<app-ads-filter (searchEvent)="search($event)"></app-ads-filter>
+
+<section class="row" *ngIf="data?.length; else noData">
     <div class="col12 row">
         <a [ngClass]="{'bold col3': true}" (click)="sort(sortType.name)"> Object Name</a>
         <a class="col2 bold" (click)="sort(sortType.metric1)" style="text-align: center;"> Metric 1</a>
@@ -25,3 +27,7 @@
         </div>
     </div>
 </section>
+
+<ng-template #noData>
+    <div class="row"><span class="col-start6">No Data</span></div>
+</ng-template>

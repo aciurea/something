@@ -15,7 +15,7 @@
             <mat-icon>calendar_today</mat-icon>
             Last 30 days
         </button>
-        <input matInput type="text" placeholder="Search">
+        <input matInput type="text" placeholder="Search" (change)="onChange(input?.value)" #input>
         <button mat-stroked-button style="background-color: #4dde76; color: white">
             <mat-icon>add</mat-icon>
             Create new

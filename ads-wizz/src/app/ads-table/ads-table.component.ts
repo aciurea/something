@@ -85,4 +85,17 @@ export class AdsTableComponent implements OnInit, OnDestroy {
               : next[column] - curr[column];
           });
   }
+
+  search(value: string): void {
+    this.data = !value
+      ? [...this.originalData]
+      : [...this.originalData].filter(
+          (data: AdsData) =>
+            data.name?.includes(value) ||
+            String(data.metric1).includes(value) ||
+            String(data.metric2).includes(value) ||
+            String(data.metric3).includes(value) ||
+            String(data.metric4).includes(value)
+        );
+  }
 }

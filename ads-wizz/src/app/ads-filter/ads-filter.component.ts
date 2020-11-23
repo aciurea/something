@@ -1,15 +1,19 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, EventEmitter, OnInit, Output } from '@angular/core';
+import { debounceTime, delay, debounce } from 'rxjs/operators';
 
 @Component({
   selector: 'app-ads-filter',
   templateUrl: './ads-filter.component.html',
-  styleUrls: ['./ads-filter.component.scss']
+  styleUrls: ['./ads-filter.component.scss'],
 })
 export class AdsFilterComponent implements OnInit {
+  @Output() searchEvent = new EventEmitter<string>();
 
-  constructor() { }
+  constructor() {}
 
-  ngOnInit(): void {
+  ngOnInit(): void {}
+
+  onChange(value: string) {
+    this.searchEvent.emit(value);
   }
-
 }
