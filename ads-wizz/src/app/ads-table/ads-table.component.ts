@@ -91,7 +91,7 @@ export class AdsTableComponent implements OnInit, OnDestroy {
       ? [...this.originalData]
       : [...this.originalData].filter(
           (data: AdsData) =>
-            data.name?.includes(value) ||
+            data.name?.toLocaleLowerCase().includes(value) ||
             String(data.metric1).includes(value) ||
             String(data.metric2).includes(value) ||
             String(data.metric3).includes(value) ||
