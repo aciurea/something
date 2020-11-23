@@ -16,6 +16,7 @@ enum SortDirection {
   desc = 'desc',
   none = 'none',
 }
+
 @Component({
   selector: 'app-ads-table',
   templateUrl: './ads-table.component.html',
@@ -28,20 +29,27 @@ export class AdsTableComponent implements OnInit, OnDestroy {
 
   dataSubscription: Subscription | undefined;
 
-  private originalSortObj = {
+  private originalSortObj = Object.freeze({
     name: SortDirection.asc,
     metric1: SortDirection.none,
     metric2: SortDirection.none,
     metric3: SortDirection.none,
     metric4: SortDirection.none,
-  };
-
-  sortObj = { ...this.originalData } as any;
+  });
+  private sortObj = { ...this.originalSortObj } as any;
 
   constructor(private adsDataService: AdsDataService) {}
 
-  ngOnDestroy(): void {
-    this.dataSubscription?.unsubscribe();
+  getCssClass(defaultClasses: string, column: AdsSortType): string {
+    const direction = this.sortObj[column];
+
+    return `${defaultClasses} ${
+      direction === SortDirection.none
+        ? ''
+        : direction === SortDirection.asc
+        ? 'asc'
+        : 'desc'
+    }`;
   }
 
   ngOnInit(): void {
@@ -55,7 +63,7 @@ export class AdsTableComponent implements OnInit, OnDestroy {
       });
   }
 
-  getSortingDirection(column: string): SortDirection {
+  private getSortingDirection(column: string): SortDirection {
     const columnToSort = this.sortObj[column];
 
     return columnToSort === SortDirection.none
@@ -67,7 +75,11 @@ export class AdsTableComponent implements OnInit, OnDestroy {
 
   sort(column: string) {
     const direction = this.getSortingDirection(column);
-    this.sortObj = { ...this.sortObj, [column]: direction };
+    this.sortObj = {
+      ...this.originalSortObj,
+      name: SortDirection.none,
+      [column]: direction,
+    };
 
     this.data =
       direction === SortDirection.none
@@ -97,5 +109,9 @@ export class AdsTableComponent implements OnInit, OnDestroy {
             String(data.metric3).includes(value) ||
             String(data.metric4).includes(value)
         );
+  }
+
+  ngOnDestroy(): void {
+    this.dataSubscription?.unsubscribe();
   }
 }

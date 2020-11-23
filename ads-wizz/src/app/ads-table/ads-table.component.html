@@ -2,17 +2,24 @@
 
 <section class="row" *ngIf="data?.length; else noData">
     <div class="col12 row">
-        <a [ngClass]="{'bold col3': true}" (click)="sort(sortType.name)"> Object Name</a>
-        <a class="col2 bold" (click)="sort(sortType.metric1)" style="text-align: center;"> Metric 1</a>
-        <a class="col2 bold right-align" (click)="sort(sortType.metric2)"> Metric 2</a>
-        <a class="col2 bold right-align" (click)="sort(sortType.metric3)"> Metric 3</a>
-        <a class="col2 bold right-align" (click)="sort(sortType.metric4)"> Metric 4</a>
+        <a [ngClass]="getCssClass('bold col3', sortType.name)" (click)="sort(sortType.name)"> Object Name</a>
+        <a [ngClass]="getCssClass('bold col2', sortType.metric1)" (click)="sort(sortType.metric1)"
+            style="text-align: center;"> Metric 1</a>
+        <a [ngClass]="getCssClass('col2 bold right-align', sortType.metric2)" (click)="sort(sortType.metric2)">
+            Metric 2
+        </a>
+        <a [ngClass]="getCssClass('col2 bold right-align', sortType.metric3)" (click)="sort(sortType.metric3)">
+            Metric 3
+        </a>
+        <a [ngClass]="getCssClass('col2 bold right-align', sortType.metric4)" (click)="sort(sortType.metric4)">
+            Metric 4
+        </a>
         <a class="col1 bold right-align"> </a>
     </div>
 
     <div class="col12">
         <div class="row table-row" *ngFor="let row of data">
-            <span class="col3 bold"> {{row.name}}</span>
+            <span class="bold col3"> {{row.name}}</span>
             <span class="col2" style="text-align: center;">{{row.metric1}}</span>
             <span class="col2 right-align">{{row.metric2}}
                 <span class="currency" *ngIf="row.metric2 !== 0">GBP</span></span>
