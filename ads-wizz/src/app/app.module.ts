@@ -10,7 +10,6 @@ import { AdsTableComponent } from './ads-table/ads-table.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
 import { AdsFilterComponent } from './ads-filter/ads-filter.component';
 import { HttpClientModule } from '@angular/common/http';
-import { CurrencyPipe } from './currency.pipe';
 
 @NgModule({
   declarations: [
@@ -18,7 +17,6 @@ import { CurrencyPipe } from './currency.pipe';
     AdsHeaderComponent,
     AdsTableComponent,
     AdsFilterComponent,
-    CurrencyPipe,
   ],
   imports: [
     BrowserModule,
