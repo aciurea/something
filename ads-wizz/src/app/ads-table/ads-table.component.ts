@@ -38,19 +38,7 @@ export class AdsTableComponent implements OnInit, OnDestroy {
   });
   private sortObj = { ...this.originalSortObj } as any;
 
-  constructor(private adsDataService: AdsDataService) {}
-
-  getCssClass(defaultClasses: string, column: AdsSortType): string {
-    const direction = this.sortObj[column];
-
-    return `${defaultClasses} ${
-      direction === SortDirection.none
-        ? ''
-        : direction === SortDirection.asc
-        ? 'arrow asc'
-        : 'arrow desc'
-    }`;
-  }
+  constructor(private adsDataService: AdsDataService) { }
 
   isSorted(column: AdsSortType): boolean {
     const direction = this.sortObj[column];
@@ -59,7 +47,6 @@ export class AdsTableComponent implements OnInit, OnDestroy {
   }
 
   getIcon(column: AdsSortType): string {
-    console.log(123);
     switch (this.sortObj[column]) {
       case SortDirection.asc:
         return 'arrow_drop_down';
@@ -87,8 +74,8 @@ export class AdsTableComponent implements OnInit, OnDestroy {
     return columnToSort === SortDirection.none
       ? SortDirection.asc
       : columnToSort === SortDirection.asc
-      ? SortDirection.desc
-      : SortDirection.none;
+        ? SortDirection.desc
+        : SortDirection.none;
   }
 
   sort(column: string) {
@@ -103,30 +90,30 @@ export class AdsTableComponent implements OnInit, OnDestroy {
       direction === SortDirection.none
         ? [...this.originalData]
         : [...this.originalData].sort((curr: any, next: any) => {
-            //localeCompare of strings
-            if (typeof curr[column] === 'string') {
-              return direction === SortDirection.asc
-                ? curr[column].localeCompare(next[column])
-                : next[column].localeCompare(curr[column]);
-            }
-
+          //localeCompare of strings
+          if (typeof curr[column] === 'string') {
             return direction === SortDirection.asc
-              ? curr[column] - next[column]
-              : next[column] - curr[column];
-          });
+              ? curr[column].localeCompare(next[column])
+              : next[column].localeCompare(curr[column]);
+          }
+
+          return direction === SortDirection.asc
+            ? curr[column] - next[column]
+            : next[column] - curr[column];
+        });
   }
 
   search(value: string): void {
     this.data = !value
       ? [...this.originalData]
       : [...this.originalData].filter(
-          (data: AdsData) =>
-            data.name?.toLocaleLowerCase().includes(value) ||
-            String(data.metric1).includes(value) ||
-            String(data.metric2).includes(value) ||
-            String(data.metric3).includes(value) ||
-            String(data.metric4).includes(value)
-        );
+        (data: AdsData) =>
+          data.name?.toLocaleLowerCase().includes(value) ||
+          String(data.metric1).includes(value) ||
+          String(data.metric2).includes(value) ||
+          String(data.metric3).includes(value) ||
+          String(data.metric4).includes(value)
+      );
   }
 
   ngOnDestroy(): void {

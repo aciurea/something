@@ -2,6 +2,7 @@
   $txtColor: #646698;
   $borderColor: #dee5ee;
   $shadow: #e2f1fc;
+  $active: #1a8cff;
 
   color: $txtColor;
 
@@ -37,7 +38,7 @@
     text-align: right;
   }
 
-  .sorted {
-    color: blue;
+  .active {
+    color: $active;
   }
 }
